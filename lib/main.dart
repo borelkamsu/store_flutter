@@ -53,6 +53,8 @@ class Store extends StatelessWidget {
   Widget build(BuildContext context) {
     // la méthode router est associée à l'extension go_router
     return MaterialApp.router(
+      // la méthode debugShowCheckedModeBanner permet d'afficher une petite icône en haut à droite ici on a desactiver
+      debugShowCheckedModeBanner: false,
       title: "Store",
       // la propriété home n'est plus utilisée lorsque l'extension go_router est installée
       // home: const HomeScreen(),
